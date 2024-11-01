@@ -1,1 +1,51 @@
 /* Contains CSS Styling */
+
+body {
+    background-color: #F5D7DB;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: #06142E;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top : 0;
+    left: 0;
+    width : 100%;
+    position: fixed;
+}
+
+#page_title {
+    margin-top: 100px;
+}
+
+.my_name_heading {
+    padding-left: 15px;
+    font-size: 20px;
+    color: #BD83B8;
+}
+
+.page_links {
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.page_links a {
+    padding-left: 10px;
+}
+
+.page_links a:link, .page_links a:visited {
+    text-decoration: none;
+    color: #BD83B8;
+}
+  
+.page_links a:hover, .page_links a:active {
+    text-decoration: underline;
+    color: #F1916D;
+}
+
+#active_page {
+    text-decoration: underline;
+    color: #F1916D;
+}
