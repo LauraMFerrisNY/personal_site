@@ -44,8 +44,32 @@ nav {
     text-decoration: underline;
     color: #F1916D;
 }
+.hobby_picture {
+    height: 200px;
+    float: right;
+    margin: 0 24px 24px 24px;
+   }
 
 #active_page {
     text-decoration: underline;
     color: #F1916D;
+}
+
+#interests_hobbies {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#intro {
+
+}
+
+#portrait {
+    height: 400px;
+    float: right;
+    margin-right: 50px;
+}
+
+#intro_quote {
+
 }
