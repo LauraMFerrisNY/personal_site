@@ -16,8 +16,27 @@ nav {
     position: fixed;
 }
 
-#page_title {
-    margin-top: 100px;
+main {
+    margin-bottom: 100 px;
+}
+
+p {
+    color: #1B3358;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    color: #473E66;
+    padding: 5px;
+    margin: 5px;
+}
+
+h3 {
+    color: #473E66;
+    padding: 10px;
+    margin: 5px;
 }
 
 .my_name_heading {
@@ -48,7 +67,19 @@ nav {
     height: 200px;
     float: right;
     margin: 0 24px 24px 24px;
-   }
+}
+
+.page_body {
+    display: inline-block;
+}
+
+#page_title {
+    margin-top: 100px;
+    margin-left: 10px;
+    display: inline-block;
+    color: #06142E;
+
+}
 
 #active_page {
     text-decoration: underline;
@@ -61,15 +92,24 @@ nav {
 }
 
 #intro {
-
+    margin: 10px;
+    padding: 10px;
 }
 
 #portrait {
     height: 400px;
+    margin: 100px 30px 24px 24px;
     float: right;
-    margin-right: 50px;
 }
 
 #intro_quote {
-
+    font-family: "Lucida Handwriting";
+    font-size: 24px;
+    background-color: #F1916D;
+    width: fit-content;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #06142E;
 }
