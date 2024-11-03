@@ -86,6 +86,10 @@ footer {
     display: inline-block;
 }
 
+.project {
+    border-top: 1.5px solid #BD83B8;
+}
+
 #page_title {
     margin-top: 100px;
     margin-left: 10px;
